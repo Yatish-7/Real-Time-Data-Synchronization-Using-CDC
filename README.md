@@ -1,5 +1,4 @@
 # Real-Time-Data-Synchronization-Using-CDC
-# Real-Time-Data-Synchronization-Using-CDC
 ![Logo](Logo.png)  
 ![Java Version](https://img.shields.io/badge/Java-17+-blue.svg)  
 ![Maven Build](https://img.shields.io/badge/Build-Maven-success.svg)  
