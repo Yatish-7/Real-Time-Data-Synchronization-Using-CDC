@@ -1,10 +1,11 @@
-
 # Real-Time-Data-Synchronization-Using-CDC
-![Logo](Logo.png)  
-![Java Version](https://img.shields.io/badge/Java-17+-blue.svg)  
-![Maven Build](https://img.shields.io/badge/Build-Maven-success.svg)  
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.x-orange.svg)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-blue.svg)  
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <img src="Logo.png" alt="Logo" height="60"/>
+  <img src="https://img.shields.io/badge/Java-17+-blue.svg" alt="Java Version"/>
+  <img src="https://img.shields.io/badge/Build-Maven-success.svg" alt="Maven Build"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-3.x-orange.svg" alt="RabbitMQ"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-17+-blue.svg" alt="PostgreSQL"/>
+</div>
 
 ---
 
