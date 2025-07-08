@@ -123,7 +123,7 @@ git push origin feature/YourFeature
 
 ## 📞 Contact
 
-- GitHub Repository: https://github.com/Yatish-7/Real-Time-Data-Synchronization-Using-CDC  
+- GitHub Repository: [GitHub Repository](https://github.com/Yatish-7/Real-Time-Data-Synchronization-Using-CDC)
 - Email: mailtoyatish55@gmail.com
 
 ---
