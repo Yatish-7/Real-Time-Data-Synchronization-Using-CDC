@@ -63,3 +63,112 @@ It monitors source databases like POS systems and e-commerce platforms using **W
 ```bash
 git clone https://github.com/Yatish-7/Real-Time-Data-Synchronization-Using-CDC.git
 cd Real-Time-Data-Synchronization-Using-CDC
+
+2. Configure Properties
+Update database credentials in:
+
+application.properties or application.yml
+
+Set RabbitMQ configs in:
+
+RabbitMQConfig.java or config file
+
+Define connector configurations in:
+
+DebeziumConnectorConfig.java (use PostgreSQL and MS SQL JDBC URLs)
+
+
+3. Build & Run Services
+Producer (Debezium CDC + RabbitMQ Publisher)
+
+bash
+Copy
+Edit
+cd ProducerService
+mvn clean install
+java -jar target/ProducerService-1.0.jar
+Consumer (RabbitMQ Listener + DB Writer)
+
+bash
+Copy
+Edit
+cd ConsumerService
+mvn clean install
+java -jar target/ConsumerService-1.0.jar
+
+
+
+🧪 Usage Tips
+Add table-specific configurations in Debezium connector.
+
+Customize payloads or message converters for downstream flexibility.
+
+Consumer can be scaled independently for high throughput.
+
+
+## 📞 Contact
+Project Link: [GitHub Repository](https://github.com/Yatish-7/Real-Time-Data-Synchronization-Using-CDC)  
+Email: [thardhikreddy16@gmail.com](mailto:thardhikreddy16@gmail.com)
+
+## 📚 Acknowledgments
+- [PostgreSQL](https://www.postgresql.org/) — Reliable relational database for consolidated data storage  
+- [MS SQL Server](https://www.microsoft.com/en-us/sql-server) — Supported source database for extracting POS and online registration data  
+- [RabbitMQ](https://www.rabbitmq.com/) — High‑performance message broker for asynchronous communication  
+- [Java](https://www.java.com/) & [Maven](https://maven.apache.org/) — The programming language and build tool that form the backbone of this project  
+- [Open Source Contributors](https://opensource.org/) — Thanks to the open‑source libraries and communities that made this project possible  
+
+
+
+## 🤝 Contributing
+We welcome and appreciate contributions to make this project better! Here’s how you can get involved:
+
+1. **Fork the Repository**  
+   Click the **Fork** button in the top right corner of the GitHub page.
+
+2. **Create a Feature Branch**  
+    ```
+    git checkout -b feature/AmazingFeature
+    ```
+
+3. **Make Your Changes**  
+   Add your improvements or bug fixes.
+
+4. **Commit Your Changes**  
+    ```
+    git commit -m "Add AmazingFeature"
+    ```
+
+5. **Push to Your Branch**  
+    ```
+    git push origin feature/AmazingFeature
+    ```
+
+6. **Open a Pull Request**  
+   Submit a Pull Request to have your changes reviewed and merged.
+
+---
+
+
+
+## 👥 Authors
+Developed by:
+- **Yatish Datta** — B.Tech Student, Koneru Lakshmaiah Deemed to be University  
+- **RAGHAVA NITHYANAND GUTTULA** — B.Tech Student, GITAM University
+-  **Rohith Kothapalli** — B.Tech Student, GITAM University
+-  **Nadimpalli Aditi Varma** — B.Tech Student, GITAM University
+-  **Vennela N** — B.Tech Student, GITAM University
+-  **Thumu Venkat Hardhik Reddy** — B.Tech Student, GITAM University
+
+
+
+## 🔗 Connect with Us
+- [Yatish Datta](https://www.linkedin.com/in/yatishdatta/)
+- [RAGHAVA NITHYANAND GUTTULA](https://www.linkedin.com/in/raghava-nithyanand-guttula/)
+- [Rohith Kothapalli](https://www.linkedin.com/in/rohith-kothapalli-46538a36a/)
+- [Nadimpalli Aditi Varma](https://www.linkedin.com/in/nadimpalli-aditi-varma-28ab5627b/)
+- [Vennela N](https://www.linkedin.com/in/vennela-n-117594357/)
+- [Thumu Venkat Hardhik Reddy](https://www.linkedin.com/in/thumu-venkat-hardhik-reddy-596298330/)
+
+
+
+
